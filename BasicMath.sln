@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicMathTest", "BasicMathT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{B9297DC2-EFDA-4E79-BB7E-64334A03146F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicMathTDDTest", "BasicMathTDDTest\BasicMathTDDTest.csproj", "{C39B9B8D-6570-4A27-9049-B193FE6B11F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +29,15 @@ Global
 		{B9297DC2-EFDA-4E79-BB7E-64334A03146F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9297DC2-EFDA-4E79-BB7E-64334A03146F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9297DC2-EFDA-4E79-BB7E-64334A03146F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C39B9B8D-6570-4A27-9049-B193FE6B11F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39B9B8D-6570-4A27-9049-B193FE6B11F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39B9B8D-6570-4A27-9049-B193FE6B11F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39B9B8D-6570-4A27-9049-B193FE6B11F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F23380D8-E09E-4330-A236-EE49EF0334C8}
 	EndGlobalSection
 EndGlobal
